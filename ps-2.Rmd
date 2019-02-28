@@ -8,37 +8,11 @@ biblio-style: authordate1
 geometry: margin=1in
 ---
 
-_There are ??? points available on this problems set._
+_There are 95 points available on this problems set. It will be graded out of 80, i.e. there are 15 bonus points available._
 
-**Due Date: ???***
+**Due Date: March 7, 2019** 
 
-1. This problem introduces "home production", which we can see an application of weak separability. The basic observation is that many important goods are not sourced only from the market, but also are partly or entirely produced in the household. Meals, children's education, cleaning services, and some aspects of health would be natural examples.
-
-For simplicity, consider a consumer who consumes two goods, $z$ and $y$. $y$ is purchased directly in the market for a given price of $p_y$. $z$ is produced at home for individual consumption using a fixed input $F$ and a variable input $x$. The output of $z$ is given by a production function
-
-$$
-z = A(F)x
-$$
-
-where $A(F)$ increasing in $F$. 
-
-For concreteness, you can assume $A(F) = A_0F^\theta$, where $A_0 > 0$ and $\theta > 0$ are given constants. And, you may assume that preferences over $y$ and $z$ are CES with elasticity of substitution $\sigma$:
-
-$$
-u(y,z) = \left(\alpha y^\rho + (1-\alpha) z^\rho\right)^{1/\rho}.
-$$
-
-Recall that with these preferences, $\sigma = (1-\rho)^{-1}$ is the elasticity of substitution between $y$ and $z$; $\alpha \in (0,1)$ is a share parameter.
-
-(a) If the level of $F$ is fixed, will the consumption of $z$ and $y$ increase proportionally with income?
-(b) Now suppose the level of $F$ can be freely chosen. For a given level of $z$, what are the optimal choices of $x$ and $F$?
-(c) Could an increase in the price of $x$ lead to an increase in the consumption of $z$? That is, will $x$ and $z$ tend to be substitutes? Why or why not?
-(d) Now, let's interpret $z$ to be the internal temperature of people's homes, and suppose $F$ represents goods like the efficiency of heating equipment and insulation. Suppose, in particular ??? 
-
-
-\hfill [10 points]
-
-2. Suppose students have to take an exam with $N$ questions. The time available for the exam is $T$, and the score on each question is a function of the student's level of knowledge, $K$, and the amount of time he or she spends on each question: 
+1. Suppose students have to take an exam with $N$ questions. The time available for the exam is $T$, and the score on each question is a function of the student's level of knowledge, $K$, and the amount of time he or she spends on each question: 
 $$
 S_i = f_i(t_i, K).
 $$
@@ -48,9 +22,9 @@ Assume that $f_i$ is increasing in $t_i$ and $K$ for each question $i$. Also, ea
     $$
     f_i(t_i, K) = \max\{Kt_i^\theta, \overline{S}_i\}.
     $$
-    Would any student ever not attempt to answer a question at all? When will this happen?
+    Would any student ever not attempt to answer a question at all? When will this happen? [**Hint**: consider the case $\theta < 1$ and $\theta \geq 1$ separately.]
     
-    (b) Would any student ever get the maximum possible score for a question? Which ones? [**Hint**: consider the case $\theta < 1$ and $\theta \geq 1$ separately.]
+    (b) Would any student ever get the maximum possible score for a question? Which ones? 
 
     (c) How would your answers to (a) and (b) change if the production function was 
     $$
@@ -68,10 +42,36 @@ Assume that $f_i$ is increasing in $t_i$ and $K$ for each question $i$. Also, ea
     
     (h) Would students want to collude under the system of relative grading? Would they have an incentive to cheat on such an agreement?
 
-3. Consider a monopolist with costs $c(y)$ who sells his output in two separate markets, with demand curves $D_1(p_1)$ and $D_2(p_2)$. 
+\hfill [$8 \times 5 = 40$ points]
+
+2. Consider a monopolist with costs $c(y)$ who sells his output in two separate markets, with demand curves $D_1(p_1)$ and $D_2(p_2)$. 
 
 (a) Express the relationship between the equilibrium prices in the two markets in terms of the relative elasticities of demand. Let $y_1$ and $y_2$ be the quantities sold in each market, respectively.
 
 (b) Suppose the two markets represent different countries, and the government in country 1 puts a per-unit tax of $t$ on the monopolist's product. What happens to output in market 2? 
 
 (c) Could _total_ output actually increase as a consequence of the new tax in market 1? When will this be the case?
+
+\hfill [$3 \times 5 = 15$ points]
+
+3. Consider two people $a$ and $b$, both of whom face risky income prospects. In particular, suppose $a$'s income is $y_a \sim N(\mu_a, \sigma^2_a)$ and that $b$'s income is $y_b \sim N(\mu_b, \sigma^2_b)$. You can assume $y_a$ and $y_b$ are independent of each other.
+
+ (a) Suppose $a$ has CARA preferences with absolute risk aversion $\alpha$. If she has no access to insurance markets, what is the certainty equivalent of her risky income $y_a$?
+
+ (b) Now suppose $a$ and $b$ get married, and they agree to share their joint income as follows: $a$ will get a fraction $\pi_1$ of their joint income $y = y_a + y_b$, plus a constant transfer $\pi_0$. ($\pi_0$ could be negative, in which case it is a constant payment to $b$.) Thus, $a$ will get a random consumption allocation of $c_a = \pi_0 + \pi_1 y$, and $b$ will get $c_b = -\pi_0 + (1-\pi_0)y$.
+
+ What is $a$'s certainty equivalent for this contract? If $b$ has CARA preferences with absolute risk aversion $\beta$, what is $b$'s certainty equivalent?
+
+ (c) Is there a linear contract $(\pi_0, \pi_1)$ such that both $a$ and $b$ will benefit relative to their outside options? You may assume $\mu_a = \mu_b$ and $\sigma_a = \sigma_b$ from now on.
+
+ **Hint:** see if you can find $\pi_0$ and $\pi_1$ such that the sum of $a$ and $b$'s certainty equivalents in marriage exceeds the sum of their certainty equivalents _outside_ of marriage. 
+ 
+**Another hint:** let $\widetilde{c}^M_a$ be $a$'s certainty equivalent in marriage, and let $\widetilde{c}^S_a$ be her certainty equivalent when single; use analogous notation for $b$. A good way to start is to try and maximize their joint surplus 
+$$
+S(\pi_0, \pi_1) = \widetilde{c}^M_a + \widetilde{c}^M_b - \widetilde{c}^S_a - \widetilde{c}^S_b.
+$$
+
+(d) Now specialize even further to the case where $\beta = 0$ (so $b$ is risk-neutral, i.e. $v_b(c) = c$). How do the aggregate gains from marriage depend on $a$'s risk aversion $\alpha$? What does this suggest about the types of matches we should observe on the marriage market?
+
+\hfill [$4 \times 10 = 40$ points]
+
