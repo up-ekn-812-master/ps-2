@@ -20,7 +20,7 @@ Assume that $f_i$ is increasing in $t_i$ and $K$ for each question $i$. Also, ea
 
     (a) If students try to maximize their total score on the exam, how much time will they spend on each question? Work out the solution for the particular case 
     $$
-    f_i(t_i, K) = \max\{Kt_i^\theta, \overline{S}_i\}.
+    f_i(t_i, K) = \min\{Kt_i^\theta, \overline{S}_i\}.
     $$
     Would any student ever not attempt to answer a question at all? When will this happen? [**Hint**: consider the case $\theta < 1$ and $\theta \geq 1$ separately.]
     
