@@ -58,7 +58,7 @@ Assume that $f_i$ is increasing in $t_i$ and $K$ for each question $i$. Also, ea
 
  (a) Suppose $a$ has CARA preferences with absolute risk aversion $\alpha$. If she has no access to insurance markets, what is the certainty equivalent of her risky income $y_a$?
 
- (b) Now suppose $a$ and $b$ get married, and they agree to share their joint income as follows: $a$ will get a fraction $\pi_1$ of their joint income $y = y_a + y_b$, plus a constant transfer $\pi_0$. ($\pi_0$ could be negative, in which case it is a constant payment to $b$.) Thus, $a$ will get a random consumption allocation of $c_a = \pi_0 + \pi_1 y$, and $b$ will get $c_b = -\pi_0 + (1-\pi_0)y$.
+ (b) Now suppose $a$ and $b$ get married, and they agree to share their joint income as follows: $a$ will get a fraction $\pi_1$ of their joint income $y = y_a + y_b$, plus a constant transfer $\pi_0$. ($\pi_0$ could be negative, in which case it is a constant payment to $b$.) Thus, $a$ will get a random consumption allocation of $c_a = \pi_0 + \pi_1 y$, and $b$ will get $c_b = -\pi_0 + (1-\pi_1)y$.
 
  What is $a$'s certainty equivalent for this contract? If $b$ has CARA preferences with absolute risk aversion $\beta$, what is $b$'s certainty equivalent?
 
